@@ -7,15 +7,19 @@ const calc = {
 
 export function Page() {
   return (
-    <div className="page">
-      <img src="./components/images/mats.png.png" alt="Mats" class="image" />
-      <b>Calculos</b>
-      <ul>
-        <li>{sum(calc.n1, calc.n2)}</li>
-        <li>{rest(calc.n1, calc.n2)}</li>
-        <li>{div(calc.n1, calc.n2)}</li>
-        <li>{mult(calc.n1, calc.n2)}</li>
-      </ul>
-    </div>
+    <body>
+      <div className="photo">
+        <img src="./components/images/mats.png.png" alt="Mats" class="image" />
+      </div>
+      <div className="page">
+        <b>Calculos</b>
+        <ul>
+          <li>{sum(calc.n1, calc.n2)}</li>
+          <li>{rest(calc.n1, calc.n2)}</li>
+          <li>{div(calc.n1, calc.n2)}</li>
+          <li>{mult(calc.n1, calc.n2)}</li>
+        </ul>
+      </div>
+    </body>
   );
 }
