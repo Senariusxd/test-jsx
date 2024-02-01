@@ -9,7 +9,7 @@ export function Page() {
   return (
     <body>
       <div className="photo">
-        <img src="./components/images/mats.png.png" alt="Mats" class="image" />
+        <img src="/images/mats.png" alt="Mats" />
       </div>
       <div className="page">
         <b>Calculos</b>

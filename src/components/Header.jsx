@@ -1,5 +1,4 @@
 import './styles/App.css'
-import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 
 export function Header() {
     return(
@@ -7,7 +6,7 @@ export function Header() {
             <header>
             <nav>
                 <div className="logo">
-                    <img src="./images/logo.png" alt="Logo" />
+                    <img src="/images/logo.png" alt="Logo" />
                 </div>
                 <div className="navbar">
                     <ul>
