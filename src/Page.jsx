@@ -8,7 +8,7 @@ const calc = {
 export function Page() {
   return (
     <div className="page">
-      <img src="./components/images/mate.png" alt="Mats" class="image" />
+      <img src="./components/images/mats.png.png" alt="Mats" class="image" />
       <b>Calculos</b>
       <ul>
         <li>{sum(calc.n1, calc.n2)}</li>
