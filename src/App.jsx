@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "./Header.jsx";
-import { Page } from "./Page.jsx";
-import { Footer } from "./Footer.jsx";
+import { Header } from "./components/Header.jsx";
+import { Page } from "./components/Page.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 function App() {
   return (
-    <body>
+    <body className="body">
       <Header />
       <Page />
       <Footer />
