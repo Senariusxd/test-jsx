@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import * as Lolo from "./App";
+import Rout from "./Rout";
 
-console.log(Lolo);
 
 const container = ReactDOM.createRoot(document.getElementById("root"));
 container.render(
   <React.StrictMode>
-    <App />
+    <Rout />
   </React.StrictMode>
 );

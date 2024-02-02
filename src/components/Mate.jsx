@@ -6,7 +6,7 @@ export function div(n1, n2) {
   return n1 / n2;
 }
 
-export function mult(n1, n2) {
+export function multi(n1, n2) {
   return n1 * n2;
 }
 

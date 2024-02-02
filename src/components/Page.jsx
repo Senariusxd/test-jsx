@@ -1,25 +1,15 @@
-import { sum, rest, div, mult } from "./Matem";
+import { Calculate } from './Pagetwo';
 
-const calc = {
-  n1: 5,
-  n2: 10,
-};
 
 export function Page() {
   return (
     <body>
       <div className="photo">
-        <img src="/images/mats.png" alt="Mats" />
+        <img src="/src/components/images/mats.png" alt="Mats" />
+        <p className='text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Adipisci, dolore quia! Ipsum perferendis accusantium error.</p>
       </div>
-      <div className="page">
-        <b>Calculos</b>
-        <ul>
-          <li>{sum(calc.n1, calc.n2)}</li>
-          <li>{rest(calc.n1, calc.n2)}</li>
-          <li>{div(calc.n1, calc.n2)}</li>
-          <li>{mult(calc.n1, calc.n2)}</li>
-        </ul>
-      </div>
+      <Calculate />
     </body>
   );
 }
