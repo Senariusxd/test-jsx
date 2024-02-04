@@ -1,15 +1,20 @@
 import { Calculate } from './Pagetwo';
 
 
-export function Page() {
+export function Page(props) {
   return (
-    <body>
-      <div className="photo">
-        <img src="/src/components/images/mats.png" alt="Mats" />
-        <p className='text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Adipisci, dolore quia! Ipsum perferendis accusantium error.</p>
-      </div>
-      <Calculate />
-    </body>
+    <div className='body'>
+      <header>
+            <h1 className='title'>{props.titulo}</h1>
+      </header>
+      <body >
+        
+        <img
+          className='img' src="/src/components/images/mats.png" alt="Mats"
+          style={{ margin: '0 auto' }}/>
+        <p className='text'>{props.texto}</p>
+        <Calculate />
+      </body>
+    </div>
   );
 }

@@ -3,11 +3,12 @@ import {calc} from './PagetwoCalc'
 
 export function List() {
     return (
-        <ul>
-            <li>{sum(calc.n1, calc.n2)}</li>
-            <li>{rest(calc.n1, calc.n2)}</li>
-            <li>{div(calc.n1, calc.n2)}</li>
-            <li>{multi(calc.n1, calc.n2)}</li>
-        </ul>
+        <ol>
+            <b>Los utilizados son {(calc.n1)} y {(calc.n2)}</b>
+            <li>Suma ={sum(calc.n1, calc.n2)}</li>
+            <li>Resta ={rest(calc.n1, calc.n2)}</li>
+            <li>Division ={div(calc.n1, calc.n2)}</li>
+            <li>Multiplicacion ={multi(calc.n1, calc.n2)}</li>
+        </ol>
     );
 }
