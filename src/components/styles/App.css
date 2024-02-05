@@ -1,48 +1,6 @@
 .body {
-	background-color: #333;
+	background-color: silver;
 }
-
-.page {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	min-height: 100vh;
-	margin: 0;
-	padding: 0;
-}
-
-.text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	min-height: 10vh;
-	margin: 0;
-	padding: 0;
-}
-
-.img {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-}
-
-.photo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.title {
-	display: flex;
-	justify-content: center;
-	color: blue;
-}
-
-.footer {
-	color: blueviolet;
-}
-
-/* Header.css */
 
 .nav {
 	display: flex;
@@ -91,6 +49,37 @@
 	border: none;
 }
 
+.title {
+	display: flex;
+	justify-content: center;
+	color: blue;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 10vh;
+	margin: 0;
+	padding: 0;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+/* Page About */
+
 .about {
 	display: flex;
 	flex-direction: column;
@@ -100,6 +89,7 @@
 	font-size: 25px;
 }
 
+/* Page Contact */
 .contact {
 	display: flex;
 	flex-direction: column;
@@ -109,6 +99,7 @@
 	font-size: 24px;
 }
 
+/* Page Services */
 .services {
 	display: flex;
 	flex-direction: column;
